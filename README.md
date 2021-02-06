@@ -1,6 +1,6 @@
 # NoMissText
 
-Removes the flying miss text
+Removes the miss and bad cut text along with the combo break animation! Original mod by Pink and CyanSnow.
 
 ## Credits
 
