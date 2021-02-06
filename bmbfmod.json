@@ -1,12 +1,12 @@
 {
   "id": "nomisstext",
   "name": "NoMissText",
-  "version": "1.0.0",
-  "author": "Gabriella",
+  "version": "2.0.0",
+  "author": "gabriella ✨#6859",
   "description": [
-    "Removes the miss / bad cut text along with the combo break animation!"
+    "Removes the miss and bad cut text along with the combo break animation! Original mod by Pink and CyanSnow."
   ],
-  "category": "Cosmetics",
+  "category": "Gameplay",
   "gameVersion": "1.13.2",
   "platform": "Quest",
   "components": [
