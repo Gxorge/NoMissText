@@ -1,0 +1,23 @@
+{
+  "id": "nomisstext",
+  "name": "NoMissText",
+  "version": "1.0.0",
+  "author": "Gabriella",
+  "description": [
+    "Removes the miss / bad cut text along with the combo break animation!"
+  ],
+  "category": "Cosmetics",
+  "gameVersion": "1.13.2",
+  "platform": "Quest",
+  "components": [
+    {
+      "type": "HookMod",
+      "installAction": {
+        "installLibraryFile": "libnomisstext.so"
+      },
+      "uninstallAction": {
+        "removeLibraryFile": "libnomisstext.so"
+      }
+    }
+  ]
+}
