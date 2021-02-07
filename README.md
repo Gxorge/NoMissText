@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/IsGabriellaCurious/NoMissText/blob/master/cover-small.png" alt="No Miss Text" /> <br>
-  <b>No Miss Text</b></br>
+  <b>v2.0.0</b></br>
   Hide how bad you are!
 </p>
 
