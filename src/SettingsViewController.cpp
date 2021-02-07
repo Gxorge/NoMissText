@@ -21,6 +21,10 @@ void onChangeComboBreak(SettingsViewController* self, bool newValue) {
     getConfig().config["hideBreakLines"].SetBool(newValue);
 }
 
+void onChangeSubtleNoFail(SettingsViewController* self, bool newValue) {
+    getConfig().config["subtleNoFail"].SetBool(newValue);
+}
+
 void SettingsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
     if (!(firstActivation && addedToHierarchy)) return;
 
@@ -34,6 +38,9 @@ void SettingsViewController::DidActivate(bool firstActivation, bool addedToHiera
 
     BeatSaberUI::CreateToggle(layout->get_rectTransform(), "Hide Combo Break", getConfig().config["hideBreakLines"].GetBool(),
         il2cpp_utils::MakeDelegate<UnityAction_1<bool>*>(classof(UnityAction_1<bool>*), this, onChangeComboBreak));
+
+    BeatSaberUI::CreateToggle(layout->get_rectTransform(), "Subtle No Fail", getConfig().config["subtleNoFail"].GetBool(),
+        il2cpp_utils::MakeDelegate<UnityAction_1<bool>*>(classof(UnityAction_1<bool>*), this, onChangeSubtleNoFail));
 }
 
 void SettingsViewController::DidDeactivate(bool removedFromHierarchy, bool systemScreenDisabling) {
