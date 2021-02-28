@@ -41,9 +41,8 @@ out/
 [Ll]ibs/
 [Oo]bj/
 [Oo]bjs/
-ndkpath.txt
 *.zip
-*.txt
 extern/
 Android.mk.backup
 qpm.shared.json
+CMakeLists.txt
