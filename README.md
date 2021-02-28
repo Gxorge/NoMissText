@@ -1,4 +1,4 @@
-![Team City](https://teamcity.gabriella.moe/app/rest/builds/aggregated/strob:(buildType:(project:(id:NoMissText)))/statusIcon.svg)
+[![Build status](https://teamcity.gabriella.moe/guestAuth/app/rest/builds/buildType:(id:NoMissText_Build)/statusIcon.svg)](https://teamcity.gabriella.moe/viewType.html?buildTypeId=NoMissText_Build)
 <br>
 <p align="center">
   <img src="https://github.com/IsGabriellaCurious/NoMissText/blob/master/cover-small.png" alt="No Miss Text" /> <br>
