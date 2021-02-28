@@ -1,3 +1,5 @@
+![Team City](http://ssh.centurion.pw:8111/app/rest/builds/aggregated/strob:(buildType:(project:(id:NoMissText)))/statusIcon.svg)
+<br>
 <p align="center">
   <img src="https://github.com/IsGabriellaCurious/NoMissText/blob/master/cover-small.png" alt="No Miss Text" /> <br>
   <b>v2.1.0</b></br>
